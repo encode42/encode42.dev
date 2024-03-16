@@ -1,5 +1,6 @@
 <script>
 	import "@catppuccin/palette/css/catppuccin.css";
+	import "@fontsource-variable/inter";
 	import "@fontsource-variable/jetbrains-mono";
 </script>
 
@@ -24,6 +25,10 @@
 		align-items: center;
 	}
 
+	h1, p {
+		text-align: center;
+	}
+
 	h1 {
 		font-family: "Jetbrains Mono", monospace;
 		font-size: 3rem;
@@ -31,6 +36,7 @@
 	}
 
 	p, li {
+		font-family: "Inter", sans-serif;
 		font-size: 1.25rem;
 		color: var(--ctp-macchiato-text);
 	}
